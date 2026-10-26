@@ -1,0 +1,32 @@
+# Holica AI Dependencies
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+requests>=2.31.0
+aiofiles>=23.2.1
+
+# AI / ML Core (PyTorch will be pre-installed in Colab)
+torch>=2.1.0
+torchvision
+accelerate>=0.28.0
+transformers>=4.38.0
+diffusers>=0.27.0
+safetensors>=0.4.2
+huggingface-hub>=0.21.0
+
+# Image & Video Processing
+Pillow>=10.2.0
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+opencv-python-headless>=4.9.0
+
+# Uncensored LLM (llama-cpp-python for GGUF)
+llama-cpp-python>=0.2.56; sys_platform != "win32" or python_version < "3.12"
+
+# Tunneling
+pycloudflared>=0.2.0
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
