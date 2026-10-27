@@ -60,7 +60,7 @@
       Chat (LLM) | Image (Diffusion) | Video (AnimateDiff)
 ======================================================================
  [GPU System]   : Tesla T4 (15.3 GB VRAM)
- [Local URL]    : http://127.0.0.1:8000
+ [Local URL]    : http://127.0.0.1:7000
  [PUBLIC WEB URL]: https://random-subdomain.trycloudflare.com
 
  >>> Click or copy the PUBLIC WEB URL above to access the app! <<<
@@ -82,7 +82,7 @@ pip install -r backend/requirements.txt
 ```bash
 python backend/run_colab.py
 ```
-เปิดเบราว์เซอร์ไปที่: `http://localhost:8000`
+เปิดเบราว์เซอร์ไปที่: `http://localhost:7000`
 
 ### 3. รันการทดสอบ (Automated Tests)
 ```bash
