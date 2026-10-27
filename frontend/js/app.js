@@ -7,10 +7,10 @@ const AppState = {
   activeModel: 'none'
 };
 
-// Auto-determine API URL: if on localhost/127.0.0.1 or file:// without port 8000
+// Auto-determine API URL: if on localhost/127.0.0.1 or file:// without port 7000
 if (window.location.protocol === 'file:' || window.location.port === '5500' || window.location.port === '3000') {
   if (!localStorage.getItem('holica_api_url')) {
-    AppState.apiUrl = 'http://127.0.0.1:8000';
+    AppState.apiUrl = 'http://127.0.0.1:7000';
   }
 }
 

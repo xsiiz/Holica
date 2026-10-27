@@ -44,6 +44,6 @@ DEFAULT_VIDEO_FPS = 8
 
 # Server config
 HOST = "0.0.0.0"
-PORT = int(os.environ.get("PORT", 8000))
+PORT = int(os.environ.get("PORT", 7000))
 ENABLE_TUNNEL = os.environ.get("ENABLE_TUNNEL", "true").lower() == "true"
 MOCK_MODELS = os.environ.get("MOCK_MODELS", "false").lower() == "true"

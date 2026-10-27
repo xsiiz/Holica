@@ -9,7 +9,7 @@ from typing import Optional
 logger = logging.getLogger("holica.tunnel")
 
 class CloudflareTunnel:
-    def __init__(self, port: int = 8000):
+    def __init__(self, port: int = 7000):
         self.port = port
         self.process: Optional[subprocess.Popen] = None
         self.public_url: Optional[str] = None
